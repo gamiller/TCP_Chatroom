@@ -1,6 +1,6 @@
 # TCP_Chatroom
 ##Overview
-A simple TCP connection chat client and server that provides a single chat room.  The server and each client can be run on a seperate server and talk to eachother.  Each client only sees messages sent from other clients who have joined the chatroom and the server; the client can send specific messages to get responses:
+A simple TCP connection chat client and server that provides a single chat room, written in C.  The server and each client can be run on a seperate server and talk to eachother.  Each client only sees messages sent from other clients who have joined the chatroom and the server; the client can send specific messages to get responses:
 
 * /ping – queries the server to determine if it is up and prints the result 
 * /join – joins the chat room (users cannot communicate until they join)
